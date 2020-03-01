@@ -81,7 +81,7 @@ class Details extends Component {
                     </Navbar>
                 </div>
                 <div className="pagePadding">
-                    <h1><b>{this.state.firstName} {this.state.lastName}</b></h1>
+                    <h3><b>{this.state.firstName} {this.state.lastName}</b></h3>
                     <br />
                     <Form>
                         <Form.Group as={Row}>
